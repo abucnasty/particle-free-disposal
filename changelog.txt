@@ -2,9 +2,12 @@
 Version: 0.2.0
 Date: 2026-06-23
   Features:
-    - compatible with Factorio 2.1.0
-    - remove particles on ammo turret shell particles
-    - remove dependency on quality mod
+    - Compatible with Factorio 2.1.0
+    - Remove dependency on quality mod
+    - Remove shell particles from railgun and gun turrets
+    - Remove blood particles from biters and spitters
+    - Remove cable-and-electronics-particle-small-medium particle
+    - Remove car-metal-particle-small, car-metal-particle-medium, and car-metal-particle-big particles
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-06-23
