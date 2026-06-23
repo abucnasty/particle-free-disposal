@@ -6,10 +6,9 @@
   "contact": "https://github.com/abucnasty/particle-free-disposal",
   "homepage": "https://github.com/abucnasty/particle-free-disposal",
   "description": "UPS mod that removes all particles related to destroying chests with a railgun",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.0",
-    "space-age >= 2.1.0",
-    "quality >= 2.1.0"
+    "space-age >= 2.1.0"
   ]
 }
