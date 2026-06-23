@@ -12,6 +12,8 @@ end
 
 -- remove railgun turret shell particle
 data.raw["ammo-turret"]["railgun-turret"].attack_parameters.shell_particle = nil
+-- remove ammot turret shell particle
+data.raw["ammo-turret"]["gun-turret"].attack_parameters.shell_particle = nil
 
 -- remove animation of big biter death
 data.raw["unit"]["big-biter"].dying_explosion = nil

@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-06-23
+  Features:
+    - compatible with Factorio 2.1.0
+    - remove particles on ammo turret shell particles
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-06-23
+  Features:
+    - Initial release
+    - Remove damage particles from containers, walls, and railgun turret
+    - Remove death animation from big biters
