@@ -8,6 +8,7 @@ Date: 2026-06-23
     - Remove blood particles from biters and spitters
     - Remove cable-and-electronics-particle-small-medium particle
     - Remove car-metal-particle-small, car-metal-particle-medium, and car-metal-particle-big particles
+    - Remove spark-particle and spark-particle-debris particles
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-06-23

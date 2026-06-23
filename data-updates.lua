@@ -40,6 +40,8 @@ local target_particles = {
   ["car-metal-particle-small"] = true,
   ["car-metal-particle-medium"] = true,
   ["car-metal-particle-big"] = true,
+  ["spark-particle"] = true,
+  ["spark-particle-debris"] = true,
 }
 
 local function strip_target_particle_effects(target_effects)
@@ -67,6 +69,9 @@ for _, explosion in pairs(data.raw.explosion) do
         local deliveries = action.action_delivery.type and {action.action_delivery} or action.action_delivery
         for _, delivery in pairs(deliveries) do
           strip_target_particle_effects(delivery.target_effects)
+          if type(delivery.target_effects) == "table" and #delivery.target_effects == 0 then
+            delivery.target_effects = nil
+          end
         end
       end
     end
