@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-06-23
+  Features:
+    - Compatible with Factorio 2.1.0
+    - Remove dependency on quality mod
+    - Remove shell particles from railgun and gun turrets
+    - Remove blood particles from biters and spitters
+    - Remove cable-and-electronics-particle-small-medium particle
+    - Remove car-metal-particle-small, car-metal-particle-medium, and car-metal-particle-big particles
+    - Remove spark-particle and spark-particle-debris particles
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-06-23
+  Features:
+    - Initial release
+    - Remove damage particles from containers, walls, and railgun turret
+    - Remove death animation from big biters
